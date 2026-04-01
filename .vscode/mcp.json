@@ -1,0 +1,8 @@
+    {
+    "servers": {
+        "my-first-mcp": {
+        "command": "node",
+        "args": ["./build/index.js"]
+        }
+    }
+    }
