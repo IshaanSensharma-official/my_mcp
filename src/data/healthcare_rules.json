@@ -1,0 +1,746 @@
+    [
+    {
+        "id": 1,
+        "disease": "Type 2 Diabetes Mellitus",
+        "category": "Endocrine",
+        "icd_code": "E11",
+        "symptoms": [
+        "Increased thirst (polydipsia)",
+        "Frequent urination (polyuria)",
+        "Unexplained weight loss",
+        "Fatigue and weakness",
+        "Blurred vision",
+        "Slow-healing wounds",
+        "Frequent infections",
+        "Tingling or numbness in hands/feet"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "Fasting Blood Glucose (FBG) > 126 mg/dL",
+            "HbA1c >= 6.5%",
+            "Oral Glucose Tolerance Test (OGTT) > 200 mg/dL at 2 hours"
+        ],
+        "secondary_tests": [
+            "Lipid panel",
+            "Kidney function tests (eGFR, creatinine)",
+            "Urine albumin-to-creatinine ratio",
+            "Fundoscopy for diabetic retinopathy"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Metformin",
+            "type": "Biguanide",
+            "dosage": "500–2000 mg/day orally",
+            "notes": "First-line therapy. Take with meals to reduce GI side effects."
+        },
+        {
+            "name": "Glipizide",
+            "type": "Sulfonylurea",
+            "dosage": "5–20 mg/day orally",
+            "notes": "Monitor for hypoglycemia. Take 30 minutes before meals."
+        },
+        {
+            "name": "Empagliflozin",
+            "type": "SGLT2 Inhibitor",
+            "dosage": "10–25 mg/day orally",
+            "notes": "Cardioprotective. Monitor for UTIs and genital infections."
+        },
+        {
+            "name": "Semaglutide",
+            "type": "GLP-1 Receptor Agonist",
+            "dosage": "0.5–2 mg subcutaneous weekly",
+            "notes": "Aids weight loss. Nausea common on initiation."
+        },
+        {
+            "name": "Insulin Glargine",
+            "type": "Long-acting Insulin",
+            "dosage": "10–50 units subcutaneous once daily",
+            "notes": "Used when oral agents are insufficient. Dose titrated to fasting glucose."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Maintain BMI between 18.5 and 24.9",
+        "150 minutes of moderate aerobic activity per week",
+        "Low glycemic index diet",
+        "Monitor blood glucose daily",
+        "Annual eye and foot examination"
+        ],
+        "complications": [
+        "Diabetic neuropathy",
+        "Diabetic nephropathy",
+        "Diabetic retinopathy",
+        "Cardiovascular disease",
+        "Peripheral artery disease"
+        ]
+    },
+    {
+        "id": 2,
+        "disease": "Hypertension (Primary)",
+        "category": "Cardiovascular",
+        "icd_code": "I10",
+        "symptoms": [
+        "Often asymptomatic (silent killer)",
+        "Headache (occipital, morning)",
+        "Dizziness",
+        "Blurred vision",
+        "Chest pain",
+        "Shortness of breath",
+        "Nosebleeds (in severe cases)"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "Blood pressure >= 130/80 mmHg on two separate occasions",
+            "Ambulatory Blood Pressure Monitoring (ABPM)",
+            "Home blood pressure monitoring over 7 days"
+        ],
+        "secondary_tests": [
+            "ECG (left ventricular hypertrophy)",
+            "Urinalysis and kidney function",
+            "Fasting lipid panel",
+            "Echocardiogram",
+            "Fundoscopy for hypertensive retinopathy"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Amlodipine",
+            "type": "Calcium Channel Blocker",
+            "dosage": "5–10 mg/day orally",
+            "notes": "First-line. May cause peripheral edema."
+        },
+        {
+            "name": "Lisinopril",
+            "type": "ACE Inhibitor",
+            "dosage": "10–40 mg/day orally",
+            "notes": "Preferred in diabetics and CKD. Watch for dry cough and hyperkalemia."
+        },
+        {
+            "name": "Losartan",
+            "type": "ARB",
+            "dosage": "50–100 mg/day orally",
+            "notes": "Alternative to ACE inhibitors. Monitor potassium and creatinine."
+        },
+        {
+            "name": "Hydrochlorothiazide",
+            "type": "Thiazide Diuretic",
+            "dosage": "12.5–25 mg/day orally",
+            "notes": "Monitor electrolytes, especially sodium and potassium."
+        },
+        {
+            "name": "Metoprolol Succinate",
+            "type": "Beta Blocker",
+            "dosage": "25–200 mg/day orally",
+            "notes": "Used in patients with concurrent heart failure or coronary artery disease."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "DASH diet (low sodium, high potassium)",
+        "Sodium intake below 2.3g/day",
+        "Regular aerobic exercise",
+        "Limit alcohol consumption",
+        "Quit smoking",
+        "Stress management techniques"
+        ],
+        "complications": [
+        "Stroke",
+        "Myocardial infarction",
+        "Heart failure",
+        "Chronic kidney disease",
+        "Aortic aneurysm"
+        ]
+    },
+    {
+        "id": 3,
+        "disease": "Asthma",
+        "category": "Respiratory",
+        "icd_code": "J45",
+        "symptoms": [
+        "Recurrent wheezing",
+        "Shortness of breath",
+        "Chest tightness",
+        "Chronic dry cough (especially at night)",
+        "Symptoms worsen with exercise, cold air, or allergens"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "Spirometry — FEV1/FVC ratio < 0.7 with bronchodilator reversibility >= 12%",
+            "Peak Flow Monitoring",
+            "Bronchoprovocation test (methacholine challenge)"
+        ],
+        "secondary_tests": [
+            "Allergy skin prick testing",
+            "Serum IgE levels",
+            "FeNO (fractional exhaled nitric oxide)",
+            "Chest X-ray to rule out other conditions"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Salbutamol (Albuterol)",
+            "type": "Short-acting Beta-2 Agonist (SABA)",
+            "dosage": "100–200 mcg inhaled as needed",
+            "notes": "Rescue inhaler. Use during acute attacks. Max 4 times/day."
+        },
+        {
+            "name": "Fluticasone",
+            "type": "Inhaled Corticosteroid (ICS)",
+            "dosage": "100–500 mcg inhaled twice daily",
+            "notes": "Controller medication. Rinse mouth after use to prevent oral candidiasis."
+        },
+        {
+            "name": "Salmeterol",
+            "type": "Long-acting Beta-2 Agonist (LABA)",
+            "dosage": "50 mcg inhaled twice daily",
+            "notes": "Always used in combination with ICS. Never as monotherapy."
+        },
+        {
+            "name": "Montelukast",
+            "type": "Leukotriene Receptor Antagonist",
+            "dosage": "10 mg orally once daily at night",
+            "notes": "Useful in allergic asthma. Monitor for neuropsychiatric side effects."
+        },
+        {
+            "name": "Prednisolone",
+            "type": "Oral Corticosteroid",
+            "dosage": "40–50 mg/day orally for 5–7 days",
+            "notes": "Used for acute exacerbations only. Not for long-term control."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Identify and avoid triggers (dust, pollen, smoke, pets)",
+        "Use air purifiers indoors",
+        "Maintain healthy weight",
+        "Annual influenza vaccination",
+        "Carry rescue inhaler at all times"
+        ],
+        "complications": [
+        "Status asthmaticus",
+        "Respiratory failure",
+        "Pneumothorax",
+        "Airway remodeling",
+        "Sleep disturbances"
+        ]
+    },
+    {
+        "id": 4,
+        "disease": "Major Depressive Disorder (MDD)",
+        "category": "Psychiatric",
+        "icd_code": "F32",
+        "symptoms": [
+        "Persistent low mood for >= 2 weeks",
+        "Loss of interest or pleasure (anhedonia)",
+        "Significant weight change",
+        "Insomnia or hypersomnia",
+        "Psychomotor agitation or retardation",
+        "Fatigue and loss of energy",
+        "Feelings of worthlessness or guilt",
+        "Difficulty concentrating",
+        "Recurrent thoughts of death or suicidal ideation"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "DSM-5 criteria — 5 or more symptoms for >= 2 weeks",
+            "PHQ-9 score >= 10",
+            "Clinical psychiatric interview"
+        ],
+        "secondary_tests": [
+            "Thyroid function tests (rule out hypothyroidism)",
+            "CBC and metabolic panel",
+            "Vitamin B12 and D levels",
+            "Hamilton Depression Rating Scale (HAM-D)"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Sertraline",
+            "type": "SSRI",
+            "dosage": "50–200 mg/day orally",
+            "notes": "First-line. Takes 4–6 weeks for full effect. Monitor for suicidal ideation in early therapy."
+        },
+        {
+            "name": "Escitalopram",
+            "type": "SSRI",
+            "dosage": "10–20 mg/day orally",
+            "notes": "Well tolerated. Preferred in elderly patients."
+        },
+        {
+            "name": "Venlafaxine",
+            "type": "SNRI",
+            "dosage": "75–225 mg/day orally",
+            "notes": "Effective for comorbid anxiety. Monitor blood pressure."
+        },
+        {
+            "name": "Bupropion",
+            "type": "NDRI",
+            "dosage": "150–300 mg/day orally",
+            "notes": "Useful when sexual side effects are a concern. Lowers seizure threshold."
+        },
+        {
+            "name": "Mirtazapine",
+            "type": "NaSSA",
+            "dosage": "15–45 mg/day orally at bedtime",
+            "notes": "Good for depression with insomnia and weight loss. Sedating."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Structured daily routine",
+        "Regular aerobic exercise (30 min/day)",
+        "Cognitive Behavioral Therapy (CBT)",
+        "Social support and group therapy",
+        "Sleep hygiene practices",
+        "Limit alcohol and substance use"
+        ],
+        "complications": [
+        "Suicidal ideation and attempts",
+        "Social isolation",
+        "Substance abuse",
+        "Functional impairment",
+        "Treatment-resistant depression"
+        ]
+    },
+    {
+        "id": 5,
+        "disease": "Chronic Kidney Disease (CKD)",
+        "category": "Nephrology",
+        "icd_code": "N18",
+        "symptoms": [
+        "Fatigue",
+        "Swelling in legs and ankles (edema)",
+        "Decreased urine output",
+        "Nausea and vomiting",
+        "Loss of appetite",
+        "Shortness of breath",
+        "Muscle cramps",
+        "Itchy skin (pruritus)",
+        "Hypertension"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "eGFR < 60 mL/min/1.73m² for >= 3 months",
+            "Serum creatinine and BUN",
+            "Urine albumin-to-creatinine ratio (ACR) >= 30 mg/g"
+        ],
+        "secondary_tests": [
+            "Renal ultrasound",
+            "Parathyroid hormone (PTH)",
+            "Serum phosphate and calcium",
+            "CBC for anemia",
+            "Kidney biopsy (in selected cases)"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Lisinopril",
+            "type": "ACE Inhibitor",
+            "dosage": "10–40 mg/day orally",
+            "notes": "Reduces proteinuria and slows progression. Monitor potassium closely."
+        },
+        {
+            "name": "Erythropoietin (EPO)",
+            "type": "Erythropoiesis-Stimulating Agent",
+            "dosage": "50–100 units/kg subcutaneous 3x/week",
+            "notes": "For CKD-related anemia. Target hemoglobin 10–11.5 g/dL."
+        },
+        {
+            "name": "Sevelamer",
+            "type": "Phosphate Binder",
+            "dosage": "800–1600 mg orally with meals",
+            "notes": "Controls hyperphosphatemia. Take with every meal."
+        },
+        {
+            "name": "Calcitriol",
+            "type": "Active Vitamin D",
+            "dosage": "0.25–0.5 mcg/day orally",
+            "notes": "Manages secondary hyperparathyroidism. Monitor calcium levels."
+        },
+        {
+            "name": "Furosemide",
+            "type": "Loop Diuretic",
+            "dosage": "20–80 mg/day orally",
+            "notes": "For fluid overload. Monitor electrolytes frequently."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Low protein diet (0.6–0.8 g/kg/day)",
+        "Restrict potassium and phosphorus intake",
+        "Fluid restriction based on output",
+        "Strict blood pressure control",
+        "Avoid NSAIDs and nephrotoxic agents",
+        "Dialysis planning at eGFR < 15"
+        ],
+        "complications": [
+        "End-stage renal disease (ESRD)",
+        "Cardiovascular disease",
+        "Anemia",
+        "Metabolic acidosis",
+        "Secondary hyperparathyroidism",
+        "Hyperkalemia"
+        ]
+    },
+    {
+        "id": 6,
+        "disease": "Acute Myocardial Infarction (Heart Attack)",
+        "category": "Cardiovascular",
+        "icd_code": "I21",
+        "symptoms": [
+        "Severe crushing chest pain radiating to left arm, jaw or back",
+        "Shortness of breath",
+        "Profuse sweating (diaphoresis)",
+        "Nausea and vomiting",
+        "Lightheadedness or syncope",
+        "Sense of impending doom",
+        "Palpitations"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "12-lead ECG — ST elevation or new LBBB",
+            "Troponin I or T elevated (>99th percentile)",
+            "CK-MB elevated"
+        ],
+        "secondary_tests": [
+            "Echocardiogram",
+            "Coronary angiography",
+            "CBC, BMP, coagulation panel",
+            "Chest X-ray"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Aspirin",
+            "type": "Antiplatelet",
+            "dosage": "300 mg loading, then 75–100 mg/day",
+            "notes": "Chew immediately on suspected MI. Continue indefinitely."
+        },
+        {
+            "name": "Ticagrelor",
+            "type": "P2Y12 Inhibitor",
+            "dosage": "180 mg loading, then 90 mg twice daily",
+            "notes": "Dual antiplatelet therapy with aspirin for 12 months post-MI."
+        },
+        {
+            "name": "Heparin",
+            "type": "Anticoagulant",
+            "dosage": "60 units/kg IV bolus, then 12 units/kg/hr infusion",
+            "notes": "Used during PCI procedure. Monitor aPTT."
+        },
+        {
+            "name": "Metoprolol",
+            "type": "Beta Blocker",
+            "dosage": "25–50 mg orally twice daily",
+            "notes": "Reduces myocardial oxygen demand. Start within 24 hours if hemodynamically stable."
+        },
+        {
+            "name": "Atorvastatin",
+            "type": "Statin",
+            "dosage": "80 mg/day orally",
+            "notes": "High-intensity statin therapy initiated immediately after MI."
+        },
+        {
+            "name": "Ramipril",
+            "type": "ACE Inhibitor",
+            "dosage": "2.5–10 mg/day orally",
+            "notes": "Cardioprotective. Start within 24 hours if EF < 40% or anterior MI."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Cardiac rehabilitation program",
+        "Quit smoking immediately",
+        "Heart-healthy diet (Mediterranean)",
+        "Regular moderate exercise after recovery",
+        "Strict blood pressure and cholesterol control",
+        "Annual cardiology follow-up"
+        ],
+        "complications": [
+        "Cardiogenic shock",
+        "Arrhythmias (VF, VT)",
+        "Heart failure",
+        "Papillary muscle rupture",
+        "Ventricular septal defect",
+        "Dressler syndrome"
+        ]
+    },
+    {
+        "id": 7,
+        "disease": "Pulmonary Tuberculosis",
+        "category": "Infectious Disease",
+        "icd_code": "A15",
+        "symptoms": [
+        "Chronic productive cough > 3 weeks",
+        "Hemoptysis (coughing blood)",
+        "Night sweats",
+        "Low-grade evening fever",
+        "Unintentional weight loss",
+        "Fatigue",
+        "Loss of appetite",
+        "Chest pain"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "Sputum AFB smear (3 samples)",
+            "Sputum culture for Mycobacterium tuberculosis",
+            "GeneXpert MTB/RIF (rapid molecular test)",
+            "Tuberculin Skin Test (TST) / Mantoux test"
+        ],
+        "secondary_tests": [
+            "Chest X-ray (upper lobe infiltrates, cavitations)",
+            "CT chest",
+            "IGRA (Interferon Gamma Release Assay)",
+            "HIV test",
+            "LFTs before starting treatment"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Isoniazid (H)",
+            "type": "Antitubercular",
+            "dosage": "5 mg/kg/day orally (max 300 mg)",
+            "notes": "Give with Pyridoxine (B6) to prevent peripheral neuropathy."
+        },
+        {
+            "name": "Rifampicin (R)",
+            "type": "Antitubercular",
+            "dosage": "10 mg/kg/day orally (max 600 mg)",
+            "notes": "Take on empty stomach. Causes orange discoloration of body fluids."
+        },
+        {
+            "name": "Pyrazinamide (Z)",
+            "type": "Antitubercular",
+            "dosage": "25 mg/kg/day orally",
+            "notes": "Used in first 2 months only. Monitor uric acid and LFTs."
+        },
+        {
+            "name": "Ethambutol (E)",
+            "type": "Antitubercular",
+            "dosage": "15–20 mg/kg/day orally",
+            "notes": "Monitor visual acuity and color vision monthly."
+        }
+        ],
+        "treatment_regimen": "2HRZE / 4HR (2 months intensive + 4 months continuation)",
+        "lifestyle_recommendations": [
+        "Airborne isolation for first 2 weeks of treatment",
+        "DOTS (Directly Observed Therapy) compliance",
+        "Nutritious high-calorie diet",
+        "Adequate ventilation at home",
+        "Contact tracing for household members",
+        "Complete full 6-month course without interruption"
+        ],
+        "complications": [
+        "MDR-TB (Multi-drug resistant TB)",
+        "Miliary TB",
+        "TB meningitis",
+        "Pleural effusion",
+        "Lung cavitation and fibrosis",
+        "Hepatotoxicity from medications"
+        ]
+    },
+    {
+        "id": 8,
+        "disease": "Hypothyroidism",
+        "category": "Endocrine",
+        "icd_code": "E03",
+        "symptoms": [
+        "Fatigue and sluggishness",
+        "Weight gain",
+        "Cold intolerance",
+        "Constipation",
+        "Dry skin and hair",
+        "Hair thinning or loss",
+        "Bradycardia",
+        "Depression",
+        "Menstrual irregularities",
+        "Puffy face"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "TSH elevated (> 4.5 mIU/L)",
+            "Free T4 low",
+            "Anti-TPO antibodies (for Hashimoto's)"
+        ],
+        "secondary_tests": [
+            "Lipid panel (dyslipidemia common)",
+            "CBC (anemia screening)",
+            "Thyroid ultrasound",
+            "ECG (bradycardia, low voltage)"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Levothyroxine (T4)",
+            "type": "Thyroid Hormone Replacement",
+            "dosage": "1.6 mcg/kg/day orally",
+            "notes": "Take on empty stomach 30–60 minutes before breakfast. Dose adjusted by TSH levels every 6–8 weeks."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Take medication consistently at same time daily",
+        "Avoid calcium and iron supplements within 4 hours of dose",
+        "Regular TSH monitoring every 6–12 months when stable",
+        "Adequate iodine intake through diet",
+        "Exercise regularly to manage weight"
+        ],
+        "complications": [
+        "Myxedema coma (severe untreated hypothyroidism)",
+        "Cardiovascular disease",
+        "Infertility",
+        "Peripheral neuropathy",
+        "Goiter"
+        ]
+    },
+    {
+        "id": 9,
+        "disease": "Rheumatoid Arthritis (RA)",
+        "category": "Rheumatology",
+        "icd_code": "M05",
+        "symptoms": [
+        "Symmetric joint pain and swelling (small joints first)",
+        "Morning stiffness lasting > 1 hour",
+        "Fatigue",
+        "Low-grade fever",
+        "Rheumatoid nodules",
+        "Joint deformity (in advanced disease)",
+        "Loss of joint function"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "Rheumatoid Factor (RF) positive",
+            "Anti-CCP antibodies positive (highly specific)",
+            "ESR and CRP elevated",
+            "ACR/EULAR 2010 criteria score >= 6"
+        ],
+        "secondary_tests": [
+            "X-ray joints (erosions, joint space narrowing)",
+            "MRI for early synovitis",
+            "CBC (anemia of chronic disease)",
+            "LFTs and RFTs before DMARDs"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Methotrexate",
+            "type": "DMARD",
+            "dosage": "7.5–25 mg/week orally or subcutaneous",
+            "notes": "Gold standard DMARD. Give folic acid 5 mg/week. Monitor LFTs and CBC monthly."
+        },
+        {
+            "name": "Hydroxychloroquine",
+            "type": "Antimalarial DMARD",
+            "dosage": "200–400 mg/day orally",
+            "notes": "Annual ophthalmology screening for retinal toxicity."
+        },
+        {
+            "name": "Etanercept",
+            "type": "TNF Inhibitor (Biologic)",
+            "dosage": "50 mg subcutaneous weekly",
+            "notes": "Screen for latent TB before initiating. Risk of serious infections."
+        },
+        {
+            "name": "Prednisolone",
+            "type": "Corticosteroid",
+            "dosage": "5–10 mg/day orally",
+            "notes": "Bridge therapy during DMARD initiation. Taper as quickly as possible."
+        },
+        {
+            "name": "Ibuprofen",
+            "type": "NSAID",
+            "dosage": "400–800 mg three times daily with food",
+            "notes": "For symptomatic relief only. Add PPI for GI protection."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Joint protection techniques",
+        "Occupational therapy",
+        "Low-impact exercise (swimming, cycling)",
+        "Quit smoking (worsens RA and reduces DMARD efficacy)",
+        "Calcium and Vitamin D supplementation",
+        "Regular monitoring for cardiovascular risk"
+        ],
+        "complications": [
+        "Joint destruction and deformity",
+        "Cardiovascular disease (leading cause of death in RA)",
+        "Interstitial lung disease",
+        "Felty syndrome",
+        "Amyloidosis",
+        "Increased infection risk"
+        ]
+    },
+    {
+        "id": 10,
+        "disease": "Stroke (Ischemic)",
+        "category": "Neurology",
+        "icd_code": "I63",
+        "symptoms": [
+        "Sudden facial drooping (unilateral)",
+        "Arm weakness or numbness (unilateral)",
+        "Speech difficulty (slurred or absent)",
+        "Sudden severe headache",
+        "Vision loss in one or both eyes",
+        "Sudden dizziness or loss of balance",
+        "Confusion"
+        ],
+        "diagnosis": {
+        "primary_tests": [
+            "FAST assessment (Face, Arm, Speech, Time)",
+            "Non-contrast CT head (rule out hemorrhage)",
+            "MRI brain with DWI (diffusion-weighted imaging) — gold standard",
+            "CT Angiography"
+        ],
+        "secondary_tests": [
+            "ECG (AF detection)",
+            "Echocardiogram (cardiac embolism source)",
+            "Carotid Doppler ultrasound",
+            "CBC, coagulation panel, lipids",
+            "Blood glucose (rule out hypoglycemia)"
+        ]
+        },
+        "medications": [
+        {
+            "name": "Alteplase (tPA)",
+            "type": "Thrombolytic",
+            "dosage": "0.9 mg/kg IV (max 90 mg) within 4.5 hours of onset",
+            "notes": "Time critical — door-to-needle time < 60 minutes. Contraindicated if hemorrhage."
+        },
+        {
+            "name": "Aspirin",
+            "type": "Antiplatelet",
+            "dosage": "300 mg orally within 24–48 hours (after ruling out hemorrhage)",
+            "notes": "Long-term secondary prevention. Do not give within 24 hours of tPA."
+        },
+        {
+            "name": "Clopidogrel",
+            "type": "Antiplatelet",
+            "dosage": "75 mg/day orally",
+            "notes": "Combined with aspirin for first 21 days in minor stroke or high-risk TIA."
+        },
+        {
+            "name": "Apixaban",
+            "type": "DOAC (Direct Oral Anticoagulant)",
+            "dosage": "5 mg twice daily orally",
+            "notes": "Used for stroke prevention in atrial fibrillation. Monitor renal function."
+        },
+        {
+            "name": "Atorvastatin",
+            "type": "Statin",
+            "dosage": "80 mg/day orally",
+            "notes": "Plaque stabilization and secondary prevention."
+        }
+        ],
+        "lifestyle_recommendations": [
+        "Strict blood pressure control",
+        "Quit smoking and alcohol",
+        "Mediterranean diet",
+        "Physiotherapy and rehabilitation",
+        "Speech therapy if aphasia present",
+        "Occupational therapy for ADL recovery",
+        "Regular cardiac monitoring"
+        ],
+        "complications": [
+        "Permanent paralysis or weakness",
+        "Aphasia",
+        "Dysphagia (aspiration pneumonia risk)",
+        "Vascular dementia",
+        "Depression post-stroke",
+        "Recurrent stroke"
+        ]
+    }
+    ]

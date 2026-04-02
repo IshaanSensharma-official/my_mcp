@@ -82,24 +82,53 @@
     }
     );
 
+    // Resource: Healthcare Rules
+    server.resource(
+    "healthcare-rules",
+    "rules://healthcare",
+    async (uri) => {
+        const __filename = fileURLToPath(import.meta.url);
+        const __dirname = path.dirname(__filename);
 
-    server.prompt("explain-sql", "Explain the given SQL query",{
-        sql:z.string().describe("The SQL query to explain")
-    }, ({sql})=>{
-        return{
-            messages:[
-                {
-                    role:"user",
-                    content:{
-                        type:"text",
-                        text:`Give a detailed explanation of the following SQL query in plain English: ${sql} Make it very detailed and specific for a beginner to understand`
-                    },
-                },
-            ],
+        const rulesRaw = await fs.readFile(
+        path.resolve(__dirname, "../src/data/healthcare_rules.json"),
+        "utf-8"
+        );
+
+        return {
+        contents: [
+            {
+            uri: uri.href,
+            text: rulesRaw,
+            mimeType: "application/json",
+            },
+        ],
         };
     }
-);
-    
+    );
+
+    // Prompt: Explain SQL
+    server.prompt(
+    "explain-sql",
+    "Explain the given SQL query",
+    {
+        sql: z.string().describe("The SQL query to explain"),
+    },
+    ({ sql }) => {
+        return {
+        messages: [
+            {
+            role: "user",
+            content: {
+                type: "text",
+                text: `Give a detailed explanation of the following SQL query in plain English: ${sql} Make it very detailed and specific for a beginner to understand`,
+            },
+            },
+        ],
+        };
+    }
+    );
+
     // Start server
     async function main() {
     const transport = new StdioServerTransport();
