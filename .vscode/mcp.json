@@ -1,8 +1,9 @@
-    {
-    "servers": {
-        "my-first-mcp": {
-        "command": "node",
-        "args": ["./build/index.js"]
-        }
+{
+  "servers": {
+    "my-first-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["build/index.js"]
     }
-    }
+  }
+}

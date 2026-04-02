@@ -1,0 +1,51 @@
+    [
+    {
+        "id": 1,
+        "category": "Noise",
+        "title": "Quiet Hours",
+        "rule": "Maintain quiet after 22:00 (10 PM) until 08:00 (8 AM)",
+        "description": "Loud music, parties, or excessive noise during these hours may result in complaints and penalties."
+    },
+    {
+        "id": 2,
+        "category": "Pets",
+        "title": "No Pets Allowed",
+        "rule": "Pets are strictly prohibited in the apartment",
+        "description": "No dogs, cats, birds, or any other animals are permitted. Service animals require prior approval and documentation."
+    },
+    {
+        "id": 3,
+        "category": "Smoking",
+        "title": "Non-Smoking Property",
+        "rule": "Smoking is prohibited inside the apartment and common areas",
+        "description": "Smoking including cigarettes, cigars, and vaping is only allowed in designated outdoor areas."
+    },
+    {
+        "id": 4,
+        "category": "Visitors",
+        "title": "Guest Policy",
+        "rule": "Guests must be registered and cannot stay longer than 7 consecutive days",
+        "description": "All overnight guests must be registered at the front desk. Extended stays require landlord approval."
+    },
+    {
+        "id": 5,
+        "category": "Maintenance",
+        "title": "Damage Responsibility",
+        "rule": "Tenants are responsible for all damages beyond normal wear and tear",
+        "description": "Report any damages immediately. Repair costs will be deducted from security deposit."
+    },
+    {
+        "id": 6,
+        "category": "Parking",
+        "title": "Assigned Parking Only",
+        "rule": "Use only your assigned parking space",
+        "description": "Unauthorized vehicles in assigned spots will be towed at owner's expense."
+    },
+    {
+        "id": 7,
+        "category": "Trash",
+        "title": "Proper Waste Disposal",
+        "rule": "Dispose of trash in designated bins and follow recycling guidelines",
+        "description": "Trash must be placed in proper containers. Recycling is mandatory where available."
+    }
+    ]
