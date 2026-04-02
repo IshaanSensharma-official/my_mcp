@@ -1,9 +1,8 @@
 {
-  "servers": {
-    "my-first-mcp": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["build/index.js"]
+    "servers": {
+    "my-first-mcp-cloud": {
+        "type": "http",
+        "url": "https://my-mcp-server.ishaans-official01.workers.dev"
     }
-  }
+}
 }
